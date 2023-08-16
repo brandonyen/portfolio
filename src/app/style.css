@@ -1,0 +1,22 @@
+.mainChild1 {
+  width: 45%;
+  float: left;
+  text-align: right;
+  padding-right: 1%;
+}
+
+.mainChild2 {
+  width: 55%;
+  float: right;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.mainContainer {
+  padding-left: 46%;
+}
+
+.mainContainerTop {
+  padding-left: 46%;
+  padding-top: 15%;
+}
