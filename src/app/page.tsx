@@ -5,31 +5,33 @@ import { Heading } from "@chakra-ui/react";
 export default function Home() {
   return (
     <main>
-      <div className="mainContainerTop">
-        <Heading>test</Heading>
-      </div>
       <div className="mainContainer">
-        <Heading>test</Heading>
-      </div>
-      <div className="mainContainer">
-        <Heading>test</Heading>
-      </div>
-      <div>
-        <div className="mainChild1">
-          <Heading>I am</Heading>
+        <div className="mainChild">
+          <text>A Software Developer</text>
         </div>
-        <div className="mainChild2">
-          <Heading>Brandon Yen</Heading>
+        <div className="mainChild">
+          <text>A Content Creator</text>
         </div>
-      </div>
-      <div className="mainContainer">
-        <Heading>test</Heading>
-      </div>
-      <div className="mainContainer">
-        <Heading>test</Heading>
-      </div>
-      <div className="mainContainer">
-        <Heading>test</Heading>
+        <div className="mainChild">
+          <text>An Entrepreneur</text>
+        </div>
+        <div>
+          <div className="mainChild1">
+            <text>I am</text>
+          </div>
+          <div className="mainChild2">
+            <text>Brandon Yen</text>
+          </div>
+        </div>
+        <div className="mainChild">
+          <text>A Photographer</text>
+        </div>
+        <div className="mainChild">
+          <text>A Graphic Designer</text>
+        </div>
+        <div className="mainChild">
+          <text>A Humanitarian</text>
+        </div>
       </div>
     </main>
   );
