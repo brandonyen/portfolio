@@ -3,20 +3,20 @@
 
 .mainChild1 {
   width: 35%;
-  float: left;
   text-align: right;
   padding-right: 1%;
   color: black;
   font-weight: 700;
+  display: inline-block;
 }
 
 .mainChild2 {
   width: 65%;
-  float: right;
   text-align: left;
   padding-left: 1%;
   color: black;
   font-weight: 700;
+  display: inline-block;
 }
 
 .mainChild {
@@ -25,8 +25,39 @@
   -webkit-text-stroke: 1px black;
 }
 
-.mainContainer {
-  padding-top: 5vh;
+.iconContainer {
+  border: 2px solid green;
+  width: 20%;
+  height: 100vh;
+  float: left;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.secondaryTextContainer {
+  border: 2px solid yellow;
+  width: 25%;
+  height: 100vh;
+  float: left;
+}
+
+.primaryTextContainer {
+  border: 2px solid red;
+  width: 55%;
+  float: right;
+  height: 100vh;
+}
+
+.divContainer {
+  display: flow-root;
+  background-color: white;
+}
+
+.icons {
+  height: 10%;
+  border: 2px solid blue;
+  width: 100%;
 }
 
 html,
@@ -35,4 +66,8 @@ main {
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-style: italic;
+}
+
+.content {
+  overflow: hidden;
 }
