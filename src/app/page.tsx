@@ -9,22 +9,34 @@ export default function Home() {
           <div className="icons">
             <img
               src="/images/email.png"
-              height="10%"
-              width="10%"
+              height="25%"
+              width="25%"
               className="iconImage"
             ></img>
-            <img
-              src="/images/linkedin.png"
-              height="10%"
-              width="10%"
-              className="iconImage"
-            ></img>
-            <img
-              src="/images/resume.png"
-              height="10%"
-              width="10%"
-              className="iconImage"
-            ></img>
+            <a
+              className="iconImageLink"
+              href="https://www.linkedin.com/in/brandonyen2026/"
+              target="_blank"
+            >
+              <img
+                src="/images/linkedin.png"
+                height="25%"
+                width="25%"
+                className="iconImage"
+              ></img>
+            </a>
+            <a
+              className="iconImageLink"
+              href="/files/Resume.pdf"
+              target="_blank"
+            >
+              <img
+                src="/images/resume.png"
+                height="25%"
+                width="25%"
+                className="iconImage"
+              ></img>
+            </a>
           </div>
         </div>
         <div className="secondaryTextContainer">
