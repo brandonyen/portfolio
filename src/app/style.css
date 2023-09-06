@@ -24,7 +24,7 @@
   height: 100vh;
   float: left;
   padding-right: 0.5%;
-  display: flex;
+  display: grid;
   justify-content: right;
   align-items: center;
 }
@@ -44,6 +44,9 @@
 .divContainer {
   display: flow-root;
   background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-style: italic;
 }
 
 .icons {
@@ -60,14 +63,6 @@
 
 .iconImageLink {
   display: contents;
-}
-
-html,
-main {
-  background-color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 60px;
-  font-style: italic;
 }
 
 .content {

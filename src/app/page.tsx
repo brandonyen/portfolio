@@ -1,5 +1,6 @@
 "use client";
 import "./style.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -43,13 +44,27 @@ export default function Home() {
           <text className="mainText">I am</text>
         </div>
         <div className="primaryTextContainer">
-          <text className="offText">A Software Developer</text>
-          <text className="offText">A Content Creator</text>
-          <text className="offText">An Entrepreneur</text>
-          <text className="mainText">Brandon Yen</text>
-          <text className="offText">A Photographer</text>
-          <text className="offText">A Graphic Designer</text>
-          <text className="offText">A Humanitarian</text>
+          <Link href="/software-development" className="offText">
+            A Software Developer
+          </Link>
+          <Link href="/content-creation" className="offText">
+            A Content Creator
+          </Link>
+          <Link href="/entrepreneurship" className="offText">
+            An Entrepreneur
+          </Link>
+          <Link href="/about" className="mainText">
+            Brandon Yen
+          </Link>
+          <Link href="/photography-portfolio" className="offText">
+            A Photographer
+          </Link>
+          <Link href="/graphic-design-portfolio" className="offText">
+            A Graphic Designer
+          </Link>
+          <Link href="/volunteer-work" className="offText">
+            A Humanitarian
+          </Link>
         </div>
       </div>
     </main>
