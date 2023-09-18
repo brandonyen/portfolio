@@ -1,0 +1,12 @@
+.content {
+  overflow: hidden;
+}
+
+.mainContainer {
+  background-color: #2e2e2e;
+  border: 5px solid white;
+}
+
+.navBarContainer {
+  background-color: white;
+}
