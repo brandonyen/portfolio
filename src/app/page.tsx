@@ -9,7 +9,7 @@ export default function Home() {
         <div className="iconContainer">
           <div className="icons">
             <img
-              src="/images/email.png"
+              src="/images/email-white.png"
               height="25%"
               width="25%"
               className="iconImage"
@@ -20,7 +20,7 @@ export default function Home() {
               target="_blank"
             >
               <img
-                src="/images/linkedin.png"
+                src="/images/linkedin-white.png"
                 height="25%"
                 width="25%"
                 className="iconImage"
@@ -32,7 +32,7 @@ export default function Home() {
               target="_blank"
             >
               <img
-                src="/images/resume.png"
+                src="/images/resume-white.png"
                 height="25%"
                 width="25%"
                 className="iconImage"
@@ -40,31 +40,22 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="secondaryTextContainer">
-          <text className="mainText">I am</text>
+        <div className="menuTextContainer">
+          <Link href="/about">About Me</Link>
+          <text id="myWork">My Work</text>
+          <Link href="/clustr">Clustr+</Link>
+          <Link href="/website-design">brandonyen.com</Link>
+          <Link href="/start-up">Technology Start-Up</Link>
+          <Link href="/media">Brandon Yen Media</Link>
+          <Link href="/photography">Photography</Link>
         </div>
         <div className="primaryTextContainer">
-          <Link href="/software-development" className="offText">
-            A Software Developer
-          </Link>
-          <Link href="/content-creation" className="offText">
-            A Content Creator
-          </Link>
-          <Link href="/entrepreneurship" className="offText">
-            An Entrepreneur
-          </Link>
-          <Link href="/about" className="mainText">
-            Brandon Yen
-          </Link>
-          <Link href="/photography-portfolio" className="offText">
-            A Photographer
-          </Link>
-          <Link href="/graphic-design-portfolio" className="offText">
-            A Graphic Designer
-          </Link>
-          <Link href="/volunteer-work" className="offText">
-            A Humanitarian
-          </Link>
+          <text className="remainingText">Hi, I'm</text>
+          <text id="nameText">Brandon Yen,</text>
+          <text className="remainingText">an entrepreneurial student with</text>
+          <text className="remainingText">
+            numerous real-world experiences.
+          </text>
         </div>
       </div>
     </main>
